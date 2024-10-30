@@ -1,0 +1,213 @@
+
+
+.project {
+    margin-bottom: 20px;
+
+}
+.projects{
+    background-color: antiquewhite;
+}
+
+.projects h1{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f0f4f8;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-image: url(icons/header.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #777676;
+}
+
+/* Profile Picture */
+.picture img {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 15px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+/* Section Styles */
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* About Me */
+.about p {
+    text-align: center;
+}
+
+/* Skills Section */
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.skill-icons div {
+    text-align: center;
+    width: 80px;
+}
+
+.skill-icons img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+/* Contact Section */
+.contact {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #0073e6;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-image: url('footer-bg.jpg');
+    background-size: cover;
+    color: white;
+    font-size: 1em;
+}
+/* Achievements Section */
+.achievements {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.achievements h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.achievement {
+    margin-bottom: 15px;
+}
+
+.achievement h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.achievement p {
+    font-size: 1em;
+    color: #555;
+}
